@@ -104,7 +104,7 @@
             &trans      &trans    &trans     &trans     &trans                &trans     &kp K_APP  &kp PG_UP   &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │          │          │          │          │          │          │
-            &trans     &kp K_APP  &kp LQUI  &kp LC(LALT)  &trans               &trans     &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT
+            &trans     &kp K_APP  &kp LGUI  &kp LC(LALT)  &trans               &trans     &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │          │          │          │          │          │          │
             &trans     &trans     &trans     &trans      &trans               &trans      &HOME     &kp PG_DN  &END       &trans
@@ -121,7 +121,7 @@
              &trans   &kp N7       &kp N8    &kp N9     &trans                 &trans     &trans    &trans     &trans      &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    0     │    1     │    2     │    3     │          │          │          │          │          │          │          │
-            &kp N0      &kp N1    &kp N2      &kp N3    &kp MINUS              &trans     &trans    &kp LQUI    &none      &trans
+            &kp N0      &kp N1    &kp N2      &kp N3    &kp MINUS              &trans     &trans    &kp LGUI    &none      &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │    4     │    5     │    6     │         │           │          │          │          │          │          │
               &trans   @kp N1     &kp N2     &kp N3      &trans                &trans      &trans     &trans     &trans      &trans
