@@ -80,16 +80,16 @@
         default_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮          ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  Q       │  W       │  F       │  P       │  B       │          │  J       │  L       │  U       │  Y       │  ;       │
-            &kp Q      &kp W      &kp F      &kp P      &kp B                 &kp J      &kp L      &kp U      &kp Y      &kp SEMI
+        //│  Q       │  W       │  E       │  R       │  T       │          │  Y       │  U       │  I       │  O       │  P       │
+            &kp Q      &kp W      &kp E      &kp R      &kp T                 &kp Y      &kp U      &kp I      &kp O      &kp P
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  A       │  R       │  S       │  T       │  G       │          │  M       │  N       │  E       │  I       │   O      │
-           &ht LGUI A &ht LALT R &ht LCTRL S &ht LSHFT T &kp G                &kp M    &ht RSHFT N &ht RCTRL E &ht LALT I &ht RGUI O
+        //│  A       │  S       │  D       │  F       │  G       │          │  H       │  J       │  K       │  L       │   ;      │
+           &ht LGUI A &ht LALT S &ht LCTRL F &ht LSHFT F &kp G                &kp H    &ht RSHFT J &ht RCTRL K &ht LALT L &ht RGUI SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  Z       │  X       │  C       │  D       │  V       │          │  K       │  H       │ , <      │ . >      │ / ?      │
-            &kp Z      &kp X      &kp C      &kp D      &kp V                 &kp K      &kp H      &kp COMMA  &kp DOT    &kp FSLH
+        //│  Z       │  X       │  C       │  V       │  B       │          │  N       │  M       │ , <      │ . >      │ / ?      │
+            &kp Z      &kp X      &kp C      &kp V      &kp B                 &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                  &kp ESC    &kp TAB    &lp SYM SPACE    &lp NUM RET     &kp BSPC   &kp DEL
+                                  &kp DEL   &kp BSPC    &lp SYM RET    &lp NUM TAB     &kp SPACE   &kp DEL
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
         >;
         };
@@ -116,13 +116,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮          ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │    7     │    8     │    9     │          │          │          │          │          │          │          │
-          &bt BT_CLR   &mp F7 N7  &mp F8 N8  &mp F9 N9  &kp HOME              &kp PG_UP  &none      &none      &none      &none
+          &bt BT_CLR   &mp F7 N7  &mp F8 N8  &mp F9 N9  &kp HOME              &none      &K_APP      &kp PG_UP  &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │    4     │    5     │    6     │          │          │          │          │          │          │          │
-          &bt BT_SEL 1 &mp F4 N4  &mp F5 N5  &mp F6 N6  &kp END               &kp PG_DN  &kp LEFT   &kp UP     &kp RIGHT  &none
+          &bt BT_SEL 1 &mp F4 N4  &mp F5 N5  &mp F6 N6  &kp END               &none     &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │    1     │    2     │    3     │    0     │          │          │          │          │          │          │
-          &bt BT_SEL 0 &mp F1 N1  &mp F2 N2  &mp F3 N3  &mp F10 N0            &none      &none      &kp DOWN   &none      &none
+          &bt BT_SEL 0 &mp F1 N1  &mp F2 N2  &mp F3 N3  &mp F10 N0            &none      &HOME      &kp PG_DN  &END      &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                   &none      &kp LSHFT  &cs                   &none      &none      &none
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
