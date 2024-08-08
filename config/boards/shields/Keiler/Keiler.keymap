@@ -126,7 +126,7 @@
         //│          │    4     │    5     │    6     │         │           │          │          │          │          │          │
               &trans   &kp N1     &kp N2     &kp N3     &trans                &trans      &trans     &trans     &trans      &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                  &trans     &trans     &tran                 &none      &trans      &trans
+                                  &trans     &trans     &trans                 &none      &trans      &trans
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
             >;
         };
@@ -156,7 +156,7 @@
             &trans      &trans      &trans    &trans     &trans                &trans    &kp AT     &kp STAR   &kp DLLR   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │          │          │          │          │          │          │
-            &kp PRCNT  &kp CARET  &kp TILDE  &none     &trans                &trans     &kp SQT    &kp DQT    &kp UNDER  &kp MINUS
+            &kp PRCNT  &kp CARET  &kp TILDE  &none      &trans                &trans     &kp SQT    &kp DQT    &kp UNDER  &kp MINUS
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │          │          │          │          │          │          │
             &trans      &trans      &trans    &trans   &trans                 &trans     &kp GRAVE  &kp BSLH   &kp HASH   &trans
