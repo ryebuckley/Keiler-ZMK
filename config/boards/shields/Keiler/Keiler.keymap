@@ -11,6 +11,7 @@
 #define SYM2 3
 #define SYM1 4
 #define FUNC 5
+#define MACRO 6
 
 
 &caps_word {
@@ -86,12 +87,12 @@
             &kp Q      &kp W      &kp E      &kp R      &kp T                 &kp Y      &kp U      &kp I      &kp O      &kp P
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S       │  D       │  F       │  G       │          │  H       │  J       │  K       │  L       │   ;      │
-           &ht LSHFT A &lp FUNC S &kp D     &lp SYM 1 F &kp G                &kp H      &lp SYM2 J   &kp K     &lp NUM L   &ht RSHFT SEMI
+           &ht LSHFT A &lp FUNC S &kp D     &lp SYM1 F &kp G                &kp H      &lp SYM2 J   &kp K     &lp NUM L   &ht RSHFT SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │          │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B                 &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                  &kp DEL  &ht LCTRY BSPC &ht LALT RET       &lp NAV TAB &kp SPACE   &kp DEL
+                                  &kp DEL  &ht LCTRY BSPC &ht LALT RET       &lp NAV TAB &lp MACRO SPACE &kp DEL
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
         >;
         };
