@@ -124,9 +124,9 @@
             &kp N0      &kp N1    &kp N2      &kp N3    &kp MINUS              &trans     &trans    &kp LGUI    &none      &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │    4     │    5     │    6     │         │           │          │          │          │          │          │
-              &trans   @kp N1     &kp N2     &kp N3      &trans                &trans      &trans     &trans     &trans      &trans
+              &trans   &kp N1     &kp N2     &kp N3     &trans                &trans      &trans     &trans     &trans      &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                  &trans      &kp LSHFT  &cs                   &none      &trans      &trans
+                                  &trans     &trans     &tran                 &none      &trans      &trans
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
             >;
         };
