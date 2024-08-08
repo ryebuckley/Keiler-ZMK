@@ -196,7 +196,7 @@
             &kp CAPS   &kp CAPS    &trans     &trans    &trans                &trans     &kp ESC    &kp LGUI   &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │          │          │          │          │          │          │
-            &trans      &trans      &trans    &trans   &trans                 &trans    &kp LC(LALT) &kp DEL    &trans     &trans
+            &trans      &trans      &trans    &trans   &trans                 &trans   &kp LC(LA(DEL)) &kp DEL &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
         //                      │          │          │          │          │          │          │          │ 
                                   &trans      &trans      &trans              &trans     &none      &trans
