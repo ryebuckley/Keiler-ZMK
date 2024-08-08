@@ -135,7 +135,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮          ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │          │          │          │          │          │          │
-            &trans      &kp AMPS   &kp lt    &kp gt     &trans                &trans    &trans     &trans     &trans     &trans
+            &trans     &kp AMPS   &kp LT     &kp GT     &trans                &trans     &trans     &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │          │          │          │          │          │          │
             &kp LBRC   &kp RBRC   &kp LPAR  &kp RPAR   &trans                &trans      &none      &kp EXCL   &kp EQUAL  &kp PLUS
