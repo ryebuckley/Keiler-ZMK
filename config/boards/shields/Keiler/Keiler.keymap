@@ -90,7 +90,7 @@
            &ht LSHFT A &lp FUNC S &kp D     &lp SYM1 F &kp G                &kp H      &lp SYM2 J   &kp K     &lp NUM L   &ht RSHFT SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │          │  N       │  M       │ , <      │ . >      │ / ?      │
-            &kp Z      &kp X      &kp C      &kp V      &kp B                 &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
+            &kp Z      &kp X      &kp C      &kp V      &kp B                 &kp N      &kp M     &kp COMMA &ht LCTRL DOT &kp FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                   &kp DEL  &ht LCTRL BSPC &ht LALT RET       &lp NAV TAB &lp MACRO SPACE &kp DEL
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
@@ -104,7 +104,7 @@
             &trans      &trans    &trans     &trans     &trans                &trans     &kp K_APP  &kp PG_UP   &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │          │          │          │          │          │          │
-            &trans     &kp K_APP  &kp LGUI  &kp LC(LGUI) &kp LC(LALT)               &trans     &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT
+            &trans     &kp K_APP  &kp LGUI  &kp LC(LGUI) &kp LC(LALT)         &trans     &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │          │          │          │          │          │          │
             &trans     &trans     &trans     &trans      &trans               &trans      &kp HOME  &kp PG_DN  &kp END    &trans
@@ -144,7 +144,7 @@
             &trans     &kp PIPE   &kp LBKT   &kp RBKT   &trans                 &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
         //                      │          │          │          │          │          │          │          │ 
-                                  &trans      &trans      &trans            &kp C_VOL_UP &kp C_VOL_DN &kp C_MUTE
+                                  &trans   &kp C_BRI_DN &kp C_BRI_UP         &kp C_VOL_UP &kp C_VOL_DN &kp C_MUTE
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
             >;
         };
@@ -181,7 +181,7 @@
             &trans      &trans      &trans    &trans   &trans                 &trans     &kp F4     &kp F5     &kp F6     &kp F9
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
         //                      │          │          │          │          │          │          │          │ 
-                                  &trans      &trans      &trans              &kp C_BRI_UP &kp C_BRI_DN &trans
+                                  &trans      &trans      &trans              &trans     &trans     &trans
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
             >;
         };
