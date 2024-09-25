@@ -54,7 +54,7 @@
         lp: layer_press {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "hold-preferred";
+            flavor = "tap-preferred";
             tapping-term-ms = <200>;
             require-prior-idle-ms = <125>;
             // retro-tap;
@@ -196,7 +196,7 @@
             &trans     &trans      &trans     &trans    &trans                &trans     &kp ESC    &kp LG(K)  &kp LG(L)  &kp CAPS
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │          │          │          │          │          │          │
-            &trans      &trans      &trans  &kp LG(v)   &trans                &trans   &kp LC(LA(DEL)) &trans  &kp LG(.)   &trans
+            &trans      &trans      &trans  &kp LG(V)   &trans                &trans   &kp LC(LA(DEL)) &trans  &kp LG(DOT) &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
         //                      │          │          │          │          │          │          │          │ 
                                   &trans      &trans      &trans              &trans     &none      &trans
