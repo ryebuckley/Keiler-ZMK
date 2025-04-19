@@ -94,7 +94,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │          │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B                 &kp N      &kp M     &kp COMMA &ht LCTRL DOT &kp FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                  &kp DEL  &ht LCTRL BSPC &ht LALT RET       &lp NAV TAB &lp MACRO SPACE &lp ADV_MACRO DEL
+                         &lp ADV_MACRO DEL  &ht LCTRL BSPC &ht LALT RET       &lp NAV TAB &lp MACRO SPACE &kp DEL
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
         >;
         };
@@ -207,7 +207,7 @@
             >;
         };
 
-         macro_layer { // done
+         adv_macro_layer { // done
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮          ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │          │          │          │          │          │          │
@@ -220,7 +220,7 @@
             &trans      &trans  &kp LC(INS) &kp LS(INS) &trans                &trans   &kp LC(LA(DEL)) &trans  &kp LG(DOT) &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
         //                      │          │          │          │          │          │          │          │ 
-                                  &trans      &trans      &trans              &trans     &trans      &none
+                                  &none       &trans      &trans              &trans     &trans      &trans
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
 
             >;
